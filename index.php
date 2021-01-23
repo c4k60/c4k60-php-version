@@ -44,25 +44,7 @@
 	</head>
 
   <body style="margin-top: 100px;">
-<script>
-$(document).ready(function() {
-    // show the alert
-    setTimeout(function() {
-        $(".dismiss").alert('close');
-    }, 5000);
-});
-</script>
-    <script>
-function MyFunction() {
-    var thongbao = 1;
-    var tbl1 = document.getElementById("tbl").innerHTML;
-    tbl1 = thongbao - 1;
-    if (tbl1.innerHTML = 0){
-      document.getElementById("bell1").style = "display:none;";
-    }
-}
-setTimeout(MyFunction, 1); 
-</script>
+
 <style>
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 .navbar-icon-top .navbar-nav .nav-link > .faf {
@@ -236,8 +218,21 @@ setTimeout(MyFunction, 1);
       </li>
       <li class="nav-item ">
         <a class="nav-link" href="/thongbaolop">
-          <i class="faf fa fa-bell" id="bell1" style="display:block;">
-            <span class="badge badge-danger" id="tbl"></span>
+          <i class="faf fa fa-bell">
+            <span class="badge badge-danger" id="tbl">
+<?php
+ require_once $_SERVER['DOCUMENT_ROOT'] . '/login/serverconnect.php';
+$sql = "SELECT count(*) as total FROM thongbaolop";
+$results = mysqli_query($db, $sql);
+if (mysqli_num_rows($results)){
+      while($row=mysqli_fetch_assoc($results)){
+echo $row['total'];
+}
+} else {
+  echo "";
+}
+?>
+            </span>
           </i>
           Thông báo
         </a>
@@ -447,7 +442,7 @@ $(document).ready(function() {
   </a>
 </div>
 
-<div class="row marketing" style="display:block">
+<div class="row marketing" style="display:block;margin-top: 28px;">
     <div>
           <h4><strong><i class="fas fa-question-circle"></i> Đây là gì?</strong></h4>
 <p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 11 Nga THPT Chuyên Hà Nam</p>
@@ -455,7 +450,7 @@ $(document).ready(function() {
 <div class="content list">
 <?php
   require_once $_SERVER['DOCUMENT_ROOT'] . '/login/serverconnect.php';
-$sql = "SELECT * FROM thongbaolop ORDER BY id DESC";
+$sql = "SELECT * FROM thongbaolop ORDER BY id DESC LIMIT 5";
 $results = mysqli_query($db, $sql);
 if (mysqli_num_rows($results)){
       while($row=mysqli_fetch_assoc($results)){
@@ -1207,19 +1202,29 @@ setTimeout(b34, 1);
 <h4><strong><i class="fas fa-user-check"></i> Ai tạo ra cái này?</strong></h4>
 <p>Dương Tùng Anh - Coder, Web Designer | Hiện đang học lớp 11 Nga THPT Chuyên Hà Nam.</p>
 <div>
-<button type="button" class="btn btn-info" onclick="location.href='http://facebook.com/tunnaduong';">
+<button type="button" class="btn btn-info" onclick="location.href='http://facebook.com/tunnaduong';" style="
+    margin-top: 4px;
+">
    <i class="fab fa-facebook-square"></i>
 Facebook</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://instagram.com/tunganhduongg';">
+<button type="button" class="btn btn-info" onclick="location.href='http://instagram.com/tunna.handsome';" style="
+    margin-top: 4px;
+">
    <i class="fab fa-instagram"></i>
 Instagram</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://twitter.com/tunganh03';">
+<button type="button" class="btn btn-info" onclick="location.href='http://twitter.com/tunnaduong';" style="
+    margin-top: 4px;
+">
   <i class="fab fa-twitter"></i>
 Twitter</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://github.com/tunganh03';">
+<button type="button" class="btn btn-info" onclick="location.href='http://github.com/tunnaduong';" style="
+    margin-top: 4px;
+">
   <i class="fab fa-github"></i>
 GitHub</button>
-<button type="button" class="btn btn-info" onclick="location.href='http://duongtunganh.space';">
+<button type="button" class="btn btn-info" onclick="location.href='https://blog.tunnaduong.com';" style="
+    margin-top: 4px;
+">
   <i class="fas fa-blog"></i>
 Blog cá nhân</button>
 </div>
