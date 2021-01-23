@@ -413,217 +413,369 @@ $(document).ready(function() {
 .navbar-brand{
 font-size: 2rem;
 }
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
 </style>
-<h3><i class="fas fa-search"></i> Tra cứu hồ sơ học sinh - 11 Chuyên Nga</h3>
+<h3><i class="fas fa-address-card"></i> Tra cứu hồ sơ học sinh - 11 Chuyên Nga</h3>
 <div class="content list">
 
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm tên học sinh..." title="Type in a name">
 
-
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<tr>
+    <td>
+<table id="myTable">
+  <tr>
+    <td>
   <div class="list-item">
     <h5 class="list-post-title">
       <a href="/hoso/huyenanh.html">Dương Huyền Anh</a>
     </h5>
   </div>
-
-  <div class="list-item">
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
     <h5 class="list-post-title">
-      <a href="/hoso/minhquang.html">Vũ Minh Quang</a>
+      <a href="/hoso/tunganh.html">Dương Tùng Anh</a>
     </h5>
   </div>
-
-  <div class="list-item">
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
     <h5 class="list-post-title">
-      <a href="/hoso/huyentrang.html">Vũ Huyền Trang</a>
+      <a href="/hoso/phuonganh.html">Ngô Phương Anh</a>
     </h5>
   </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/dieuhuyen.html">Trần Thị Diệu Huyền</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/khanhvan.html">Trần Khánh Vân</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/phamhien.html">Phạm Thu Hiền</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/thienhuong.html">Phạm Thị Thiên Hương</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/sonhoa.html">Phạm Bảo Sơn Hoa</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/thuyhien.html">Nguyễn Thuý Hiền</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/tuyet.html">Nguyễn Thị Ánh Tuyết</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/huynguyen.html">Nguyễn Quang Huy</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/minhthu.html">Nguyễn Minh Thư</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/nguyenkhoi.html">Nguyễn Minh Khôi</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/khanhlinh.html">Nguyễn Khánh Linh</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/nguyenmanh.html">Nguyễn Đức Mạnh</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
     <h5 class="list-post-title">
       <a href="/hoso/thaiduong.html">Nguyễn Đạt Thái Dương</a>
     </h5>
   </div>
-
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/baohan.html">Nguyễn Anh Bảo Hân</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
   <div class="list-item">
     <h5 class="list-post-title">
       <a href="/hoso/danghai.html">Nguyễn Đặng Hải</a>
     </h5>
   </div>
-
-  <div class="list-item">
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
     <h5 class="list-post-title">
-      <a href="/hoso/baohan.html">Nguyễn Anh Bảo Hân</a>
+      <a href="/hoso/thuhien.html">Bùi Thu Hiền</a>
     </h5>
   </div>
-
+  </td>
+    </tr>
+<tr>
+    <td>
   <div class="list-item">
     <h5 class="list-post-title">
-      <a href="/hoso/phuonganh.html">Ngô Phương Anh</a>
+      <a href="/hoso/thuyhien.html">Nguyễn Thuý Hiền</a>
     </h5>
   </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+ <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/phamhien.html">Phạm Thu Hiền</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+ <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/hohieu.html">Hồ Trung Hiếu</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/dieuhuyen.html">Trần Thị Diệu Huyền</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/sonhoa.html">Phạm Bảo Sơn Hoa</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/thanhhoai.html">Dư Thanh Hoài</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/thienhuong.html">Phạm Thị Thiên Hương</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/huela.html">Lã Kim Huệ</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+  <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/huynguyen.html">Nguyễn Quang Huy</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+ <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/nguyenkhoi.html">Nguyễn Minh Khôi</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+<tr>
+    <td>
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/lelam.html">Lê Hoàng Tùng Lâm</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/ngoclinh.html">Bùi Ngọc Lĩnh</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 
   <div class="list-item">
     <h5 class="list-post-title">
       <a href="/hoso/kimlien.html">Lê Kim Liên</a>
     </h5>
   </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/lelam.html">Lê Hoàng Tùng Lâm</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/huela.html">Lã Kim Huệ</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/hohieu.html">Hồ Trung Hiếu</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/giavan.html">Hà Gia Văn</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/tunganh.html">Dương Tùng Anh</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/duongthao.html">Dương Phương Thảo</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/thanhhoai.html">Dư Thanh Hoài</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/annguyen.html">Đỗ Thảo Nguyên</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
-    <h5 class="list-post-title">
-      <a href="/hoso/hongquan.html">Đỗ Hồng Quân</a>
-    </h5>
-  </div>
-
-  <div class="list-item">
+<div class="list-item">
     <h5 class="list-post-title">
       <a href="/hoso/dinhlinh.html">Đinh Thuỳ Linh</a>
     </h5>
   </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+ <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/khanhlinh.html">Nguyễn Khánh Linh</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 
   <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/nguyenmanh.html">Nguyễn Đức Mạnh</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/annguyen.html">Đỗ Thảo Nguyên</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+<div class="list-item">
     <h5 class="list-post-title">
       <a href="/hoso/daophuong.html">Đào Thu Phương</a>
     </h5>
   </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 
   <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/minhquang.html">Vũ Minh Quang</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/hongquan.html">Đỗ Hồng Quân</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+<div class="list-item">
     <h5 class="list-post-title">
       <a href="/hoso/danthao.html">Đan Thị Phương Thảo</a>
     </h5>
   </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+<div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/duongthao.html">Dương Phương Thảo</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+ <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/minhthu.html">Nguyễn Minh Thư</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 
   <div class="list-item">
     <h5 class="list-post-title">
-      <a href="/hoso/thuhien.html">Bùi Thu Hiền</a>
+      <a href="/hoso/huyentrang.html">Vũ Huyền Trang</a>
     </h5>
   </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
+
+    <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/tuyet.html">Nguyễn Thị Ánh Tuyết</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 
   <div class="list-item">
     <h5 class="list-post-title">
-      <a href="/hoso/ngoclinh.html">Bùi Ngọc Lĩnh</a>
+      <a href="/hoso/khanhvan.html">Trần Khánh Vân</a>
     </h5>
   </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 
-
+ <div class="list-item">
+    <h5 class="list-post-title">
+      <a href="/hoso/giavan.html">Hà Gia Văn</a>
+    </h5>
+  </div>
+  </td>
+    </tr>
+  <tr>
+    <td>
 </div>
 <br>
 
