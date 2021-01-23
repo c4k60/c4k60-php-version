@@ -94,7 +94,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 	}
 
 ?>
-	<form action="post.php" method="POST" id="form1">
+	<form action="update.php" method="POST" id="form1">
 
 
 

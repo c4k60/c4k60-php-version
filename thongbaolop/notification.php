@@ -432,7 +432,7 @@ $sql = "SELECT * FROM thongbaolop WHERE id='$id'";
 $results = mysqli_query($db, $sql);
 if (mysqli_num_rows($results)){
       while($row=mysqli_fetch_assoc($results)){
-echo "<h3>".$row['title']."</h3>".$row['content'];
+echo "<h3>".$row['title']."</h3><i class='far fa-clock'></i> ".$row['date']."<br><br>".$row['content'];
 }
 } else {
   echo "<h5>Không tìm thấy thông báo này :(</h5>";
