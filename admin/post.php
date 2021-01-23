@@ -62,7 +62,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 
 				if(strlen($topic_name)>=10){
 
-					$query = "INSERT INTO thongbaolop SET title='$topic_name', content='$content', date='$date' WHERE id=1";
+					$query = "INSERT INTO thongbaolop (title, content, date) VALUES ('$topic_name', '$content', '$date')";
 
 					mysqli_query($db, $query);
 
