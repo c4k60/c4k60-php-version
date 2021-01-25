@@ -48,12 +48,20 @@ $b = $album_name;
 $strreplace = str_replace($a, $b, $strings);
 
 file_put_contents($url, $strreplace);
+
 $strings2 = file_get_contents($url);
 $a2 = "WHERE album = 2";
 $b2 = "WHERE album = ".$idd;
 $strreplace2 = str_replace($a2, $b2, $strings2);
 
 file_put_contents($url, $strreplace2);
+
+$strings22 = file_get_contents($url);
+$a22 = "anhdim.php";
+$b22 = $album_link;
+$strreplace22 = str_replace($a22, $b22, $strings22);
+
+file_put_contents($url, $strreplace22);
 
   }
 }
