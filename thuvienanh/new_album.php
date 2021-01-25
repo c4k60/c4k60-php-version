@@ -17,16 +17,12 @@ $source = 'anhdim.php';
   
 // Store the path of destination file 
 $destination = $album_link;  
-  
-// Copy the file from /user/desktop/geek.txt  
-// to user/Downloads/geeksforgeeks.txt' 
-// directory 
-if( !copy($source, $destination) ) {  
-    echo "File can't be copied! \n";  
-}  
-else {  
-    echo "File has been copied! \n";  
-}  
+
+copy($source, $destination);  
+
+
+
+
 
 
 $sql = "INSERT INTO album (name, link) VALUES ('$album_name', '$album_link')";
@@ -34,7 +30,38 @@ $sql = "INSERT INTO album (name, link) VALUES ('$album_name', '$album_link')";
     // execute query
     mysqli_query($db, $sql);
   $err = "Tạo album mới thành công";
+
+  $sql = "SELECT id FROM album WHERE name='$album_name'";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+   $idd = $row["id"];
+
+$url = $album_link;
+
+$strings = file_get_contents($url);
+
+$a = "Ảnh dìm";
+$b = $album_name;
+$strreplace = str_replace($a, $b, $strings);
+
+file_put_contents($url, $strreplace);
+$strings2 = file_get_contents($url);
+$a2 = "WHERE album = 2";
+$b2 = "WHERE album = ".$idd;
+$strreplace2 = str_replace($a2, $b2, $strings2);
+
+file_put_contents($url, $strreplace2);
+
   }
+}
+
+  }
+
+
+
 ?>
 
       <?php 

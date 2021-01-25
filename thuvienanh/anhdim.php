@@ -4,7 +4,7 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Thư viện ảnh C4K60 - Ảnh tập thể lớp</title>
+      <title>Thư viện ảnh C4K60 - Ảnh dìm</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
