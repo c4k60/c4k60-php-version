@@ -10,27 +10,57 @@
       <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
+      <?php 
+$title = 'C4K60 - ';
+require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
+ ?>
   </head>
 
   <body>
 
-    
-    <div id="container">
+    <?php 
+$thuvienanh = 'active';
+require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
+ ?>
+    <div id="container" style="
+    margin-top: 52px;
+">
     
       <!--
         Gallery title
       -->
       <header>
-        <h1><a href="index.html">Thư viện ảnh C4K60</a></h1>
+        <h3><i class="faf fas fa-images">
+          </i> Thư viện ảnh C4K60</h3>
       </header>
-    
+    <style type="text/css">
+      .breadcrumb-item {
+        color:black;
+      }
+    </style>
       <!--
         Breadcrumbs of parent albums
       -->
       <nav class="breadcrumbs">
-    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="Anh-tap-the-lop.html">Ảnh tập thể lớp</a>
+    <a class="breadcrumb-item" href="index.php">Trang chủ</a><a class="breadcrumb-item" href="anhtapthelop.php">Ảnh tập thể lớp</a>
+   <div id="tunna">
+    <a href="upload.php"> <i class="fas fa-cloud-upload-alt"></i> Tải lên ảnh</a>
+  </div>
+    <style type="text/css">
+
+      @media only screen and (max-width: 600px) {
+        #tunna {
+          display:block;
+        }
+      }
+      @media only screen and (min-width: 600px) {
+        #tunna {
+          float: right;
+        }
+      }
+    </style>
       </nav>
-    
+     
       <!--
         Nested albums, if any
       -->
@@ -43,7 +73,7 @@
       <ul id="media" class="clearfix">
           <?php
   require_once $_SERVER['DOCUMENT_ROOT'] . '/login/serverconnect.php';
-$sql = "SELECT * FROM thuvienanh";
+$sql = "SELECT * FROM thuvienanh WHERE album = 1";
 $results = mysqli_query($db, $sql);
 if (mysqli_num_rows($results)){
       while($row=mysqli_fetch_assoc($results)){
@@ -53,8 +83,8 @@ echo "<li data-src='".$row['path']."'
               >
               <a href='".$row['path']."'>
                 <img src='".$row['path']."'
-                     width='120'
-                     height='120'
+                     width='90'
+                     height='90'
                      alt='".$row['image_name']."' />
               </a>
             </li>";
@@ -79,10 +109,9 @@ $up = '';
       <!--
         Optional footer
       -->
-      <footer>
-        <p>Copyright 2021 C4K60. Created with love by <a href='https://facebook.com/tunnaduong'>Tunna Duong</a><br><a href='https://c4k60.fattiesoftware.com'>Quay lại trang chủ C4K60</a> - <a href='upload.php'>Tải lên ảnh</a></p>
-      </footer>
-    
+     <?php 
+require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
+ ?>
     </div>
     <!-- Video loader -->
     <div id="videos">

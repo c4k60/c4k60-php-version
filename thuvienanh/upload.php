@@ -1,3 +1,4 @@
+
 <?php
  require $_SERVER['DOCUMENT_ROOT'] . '/login/serverconnect.php';
   // Initialize message variable
@@ -38,24 +39,31 @@ VALUES ('$image_name', '$image', '$album')";
     }
   }
 ?>
-  <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Thư viện ảnh C4K60 - Upload ảnh</title>
-      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
-      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
-      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
-      <link rel="stylesheet" href="public/core.css" />
-      <link rel="stylesheet" href="public/theme.css" />
-  </head>
 
-  <body>
+      <?php 
+$title = 'C4K60 - Tải lên ảnh';
+require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
+ ?>
+
+
+  <body style="
+    margin-left: 31px;
+    margin-right: 31px;
+    margin-top: 81px;
+">
+    <?php 
+$thuvienanh = 'active';
+require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
+ ?>
+
     <div id="container">
-      <h1>Tải lên ảnh vào thư viện ảnh C4K60</h1><br><br>
+      <h3><i class="fas fa-cloud-upload-alt"></i> Tải lên ảnh vào thư viện ảnh C4K60</h3><br>
       <form method="POST" action="upload.php" enctype="multipart/form-data">
 <input type="file" id="image" name="image" required><br><br>
 <p>Album: </p>
-<select name="album" id="album">
+<select name="album" id="album" class="custom-select"  style="
+    width: 178px;
+">
   <?php
   require_once $_SERVER['DOCUMENT_ROOT'] . '/login/serverconnect.php';
 $sql = "SELECT * FROM album";
@@ -69,10 +77,13 @@ echo "<option value='".$row['id']."'>".$row['name']."</option>";
 }
         ?>
   </select><br><br>
-<input type="submit" name="submit">
-<br><br>
+ <button type="submit" name="submit" class="btn btn-primary">Tải lên</button>
+<br>
 <p><?php echo $msg;?></p>
 </form>
 <a href="/thuvienanh">< Quay lại</a>
 </div>
+ <?php 
+require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
+ ?>
   </body>

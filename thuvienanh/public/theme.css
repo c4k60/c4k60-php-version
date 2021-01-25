@@ -13,13 +13,13 @@ body {
 body {
   background: #fff;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
+
+
+
   margin-bottom: 1em;
 }
 a {
-  color: #444;
+
   text-decoration: none;
 }
 .clearfix:after {
@@ -45,20 +45,13 @@ header {
 }
 h1 {
   display: inline-block;
-  font-weight: bold;
+
 }
 h1 a {
-  color: #444;
+
 }
-footer {
-  color: #666;
-  font-size: 0.9em;
-  font-style: italic;
-  margin-top: 3em;
-}
-footer a {
-  color: #17baef;
-}
+
+
 nav.breadcrumbs {
   border-bottom: 1px solid #ddd;
   font-size: 1.2em;
