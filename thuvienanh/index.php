@@ -16,7 +16,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
   <body>
 
      <?php 
-$trangchu = 'active';
+$thuvienanh = 'active';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
  ?>
     <div id="container" style="
