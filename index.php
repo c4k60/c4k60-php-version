@@ -267,7 +267,7 @@ $(document).ready(function() {
       <img class="d-block w-100" src="/1.jpg" alt="First slide" />
 	   <div class="carousel-caption d-none d-md-block">
     <h5>Welcome to C4K60</h5>
-    <p>Cổng thông tin điện tử lớp 11 Chuyên Nga THPT Chuyên Hà Nam</p>
+    <p>Cổng thông tin điện tử lớp 12 Chuyên Nga THPT Chuyên Hà Nam</p>
   </div>
   </div>
 <div class="carousel-item">
@@ -290,7 +290,7 @@ $(document).ready(function() {
 <div class="row marketing" style="display:block;margin-top: 28px;">
     <div>
           <h4><strong><i class="fas fa-question-circle"></i> Đây là gì?</strong></h4>
-<p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 11 Nga THPT Chuyên Hà Nam</p>
+<p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 12 Nga THPT Chuyên Hà Nam</p>
 <h4><strong><i class="fas fa-bullhorn"></i> Thông báo lớp</strong></h4>
 <div class="content list">
 <?php

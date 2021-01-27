@@ -80,6 +80,7 @@ echo "<option value='".$row['id']."'>".$row['name']."</option>";
  <button type="submit" name="submit" class="btn btn-primary">Tải lên</button>
 <br>
 <p><?php echo $msg;?></p>
+
 </form>
 <a href="/thuvienanh">< Quay lại</a>
 </div>
