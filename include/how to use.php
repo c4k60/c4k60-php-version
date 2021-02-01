@@ -7,13 +7,13 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
 
 //Menu navbar
 
- <?php 
+<?php 
 $trangchu = 'active';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
- ?>
+?>
 
 //Footer
 
- <?php 
+<?php 
 require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
- ?>
+?>

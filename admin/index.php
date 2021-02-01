@@ -8,11 +8,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 ?>
-<head>
-	  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-</head>
-
+<?php 
+$title = 'C4K60 - Admin Panel';
+require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
+ ?>
 
 
 
@@ -32,6 +31,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     margin-left: 20px;
     margin-right: 20px;
 ">
+ <?php 
+require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
+ ?>
 <style type="text/css">
 	@media only screen and (max-width: 479px){
     #con { width: 90%; }
@@ -41,18 +43,20 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
    padding-top: 20px;
     max-width: 800px; width: 100%;
     margin: 0 auto;
-    position: relative;
+    position: relative;top: 60px;
 ">
-<p>Chào mừng, Dương Tùng Anh!</p>
-<h1>Công cụ quản trị viên</h1>
 
-<a href="time.php"><h3>Đăng thời khoá biểu mới</h3></a>
-<a href="post.php"><h3>Đăng thông báo mới</h3></a>
-<a href="post.php"><h3>Cập nhật thông báo có sẵn</h3></a>
-<a href="post.php"><h3>Xoá thông báo</h3></a>
-<a href="update.php"><h3>Cập nhật bài tập về nhà có sẵn</h3></a>
-<a href="/logout.php"><h3>Đăng xuất khỏi tài khoản</h3></a>
-<a href="/"><h3>< Quay lại trang chủ</h3></a>
+<p>Chào mừng, Dương Tùng Anh!</p>
+<h2>Công cụ quản trị viên</h2>
+
+<a href="time.php"><h4>Đăng thời khoá biểu mới</h4></a>
+<a href="post.php"><h4>Đăng thông báo mới</h4></a>
+<a href="post.php"><h4>Cập nhật thông báo có sẵn</h4></a>
+<a href="post.php"><h4>Xoá thông báo</h4></a>
+<a href="update.php"><h4>Cập nhật bài tập về nhà có sẵn</h4></a>
+<a href="logout.php"><h4>Đăng xuất khỏi tài khoản</h4></a>
 			</body>
 
-			
+			 <?php 
+require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
+ ?>

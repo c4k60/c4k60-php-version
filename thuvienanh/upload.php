@@ -7,37 +7,47 @@
   // If upload button is clicked ...
   if (isset($_POST['submit'])) {
     // POST image name
-    $image_name = $_FILES['image']['name'];
-    $sql = "SELECT * FROM album";
+     // Count total files
+ $countfiles = count($_FILES['image']['name']);
+    
+   
+
+$album = $_POST['album'];
+    
+ // Looping all files
+ for($i=0;$i<$countfiles;$i++){
+$image_name = $_FILES['image']['name'][$i];
+ $sql = "SELECT * FROM album";
 $results = mysqli_query($db, $sql);
 if (mysqli_num_rows($results)){
       while($row=mysqli_fetch_assoc($results)){
 if ($_POST['album']==$row['id']){
-  $image = "media/original/".$row['name']."/".$_FILES['image']['name'];
+  $image = "media/original/".$row['name']."/".$_FILES['image']['name'][$i];
   // image file directory
     $tarPOST = "media/original/".$row['name']."/".basename($image);
 }
 }
 } else {
-  $image = "media/original/".$_FILES['image']['name'];
+  $image = "media/original/".$_FILES['image']['name'][$i];
    // image file directory
     $tarPOST = "media/original/".basename($image);
 }
 
-$album = $_POST['album'];
-    
+
+
 $sql = "INSERT INTO thuvienanh (image_name, path, album)
 VALUES ('$image_name', '$image', '$album')";
    
     // execute query
     mysqli_query($db, $sql);
 
-    if (move_uploaded_file($_FILES['image']['tmp_name'], $tarPOST)) {
+    if (move_uploaded_file($_FILES['image']['tmp_name'][$i], $tarPOST)) {
         $msg = "Ảnh đã được upload thành công";
     }else{
         $msg = "Tải lên ảnh thất bại hoặc không có ảnh";
     }
   }
+}
 ?>
 
       <?php 
@@ -59,7 +69,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
     <div id="container">
       <h3><i class="fas fa-cloud-upload-alt"></i> Tải lên ảnh vào thư viện ảnh C4K60</h3><br>
       <form method="POST" action="upload.php" enctype="multipart/form-data">
-<input type="file" id="image" name="image" required><br><br>
+<input type="file" id="image" name="image[]" multiple required><br><br>
 <p>Album: </p>
 <select name="album" id="album" class="custom-select"  style="
     width: 178px;

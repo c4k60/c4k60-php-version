@@ -101,16 +101,25 @@ echo $row['total'];
         </div>
       </li>
 
-	    
+	    <li class="nav-item <?=$dangnhap?>">
+        <a class="nav-link" href="/login">
+          <i class="faf fas fa-sign-in-alt"></i>
+          Đăng nhập
+        </a>
+      </li>
     </ul>
     <ul class="navbar-nav ">
 		  <form class="form-inline my-2 my-lg-0"method="get" action="https://www.google.com/search" target="_blank">
 <input type="hidden" name="sitesearch" value="https://c4k60.online" />
-<input class="form-control mr-sm-2" type="text" name="q" maxlength="255" placeholder="Tìm kiếm trong trang" />
+<input class="form-control mr-sm-2" type="text" name="q" maxlength="255" style="
+    width: 286px;
+    margin-right: 10px;
+" placeholder="Tìm kiếm trong trang" />
       <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
     </form>
 	  
 			</ul>
+
         </li>
 	  </li>
     </ul>

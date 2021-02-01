@@ -3,13 +3,17 @@
  require $_SERVER['DOCUMENT_ROOT'] . '/login/serverconnect.php';
   // Initialize message variable
   $err = "";
-
+  $msg = "";
   // If upload button is clicked ...
   if (isset($_POST['submit'])) {
 
     // POST image name
     $album_name = $_POST['album_name'];
     $album_link = $_POST['album_link'].".php";
+    $image_name = $_FILES['image']['name'];
+    $image = "media/thumbnail/".$_FILES['image']['name'];
+    $tarPOST = "media/thumbnail/".basename($image);
+
     mkdir("media/original/".$album_name);
     $file = fopen($album_link,"w");
     // Store the path of source file 
@@ -22,15 +26,20 @@ copy($source, $destination);
 
 
 
+$background = "\"background-image: url('".$image."')\"";
 
+$str = addslashes($background);
 
-
-$sql = "INSERT INTO album (name, link) VALUES ('$album_name', '$album_link')";
+$sql = "INSERT INTO album (name, background_image, link) VALUES ('$album_name', '$str', '$album_link')";
    
     // execute query
     mysqli_query($db, $sql);
   $err = "Tạo album mới thành công";
-
+if (move_uploaded_file($_FILES['image']['tmp_name'], $tarPOST)) {
+        $msg = "Ảnh đã được upload thành công";
+    }else{
+        $msg = "Tải lên ảnh thất bại hoặc không có ảnh";
+    }
   $sql = "SELECT id FROM album WHERE name='$album_name'";
 $result = $conn->query($sql);
 
@@ -99,14 +108,19 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
 <input type="text" class="form-control" name="album_link" style="
     width: 218px;
 " required><br>
-
+<p>Ảnh đại diện:</p>
+<input type="file" id="image" name="image" required><br><br>
  <button type="submit" name="submit" class="btn btn-primary">Tạo album</button>
 <br>
-<p><?php echo $err;?></p>
+<p><?php
+echo $err;
+echo $msg;
+?></p>
 </form>
 <a href="/thuvienanh">< Quay lại</a>
 </div>
  <?php 
 require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
+
  ?>
   </body>

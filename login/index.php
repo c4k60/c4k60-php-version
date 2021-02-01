@@ -4,7 +4,7 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: /index.php");
+    header("location: /admin");
     exit;
 }
  
@@ -67,15 +67,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             header("location: /admin");
                         } else{
                             // Display an error message if password is not valid
-                            $password_err = "The password you entered was not valid.";
+                            $password_err = "Mật khẩu bạn điền vào không đúng.";
                         }
                     }
                 } else{
                     // Display an error message if username doesn't exist
-                    $username_err = "No account found with that username.";
+                    $username_err = "Không tìm thấy người dùng nào với tên đăng nhập này.";
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "Oops! Có gì đó không ổn. Hãy thử lại sau.";
             }
 
             // Close statement
@@ -92,33 +92,44 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <?php 
+$title = 'C4K60 - Đăng nhập tài khoản';
+require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
+ ?>
     <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
+        body{ font: 14px ; }
+        .wrapper{ width: 350px; padding: 20px;
+    margin-top: 61px;
+ }
     </style>
 </head>
 <body>
-    <div class="wrapper">
-        <h2>Login</h2>
-        <p>Please fill in your credentials to login.</p>
+    <?php 
+require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
+ ?>
+    <div class="container" style="margin-top: 91px;">
+        <h2>Đăng nhập vào C4K60</h2>
+        <p>Vui lòng điền thông tin đăng nhập của bạn vào form bên dưới.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
+                <label>Tên người dùng</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_err; ?></span>
             </div>    
             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <label>Password</label>
+                <label>Mật khẩu</label>
                 <input type="password" name="password" class="form-control">
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
+                <input type="submit" class="btn btn-primary" value="Đăng nhập">
             </div>
            
         </form>
+        <?php 
+require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
+ ?>
     </div>    
+
 </body>
 </html>
