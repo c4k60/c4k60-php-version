@@ -19,7 +19,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
 $thuvienanh = 'active';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
  ?>
-    <div id="container" style="
+    <div id="container" class="container" style="
     margin-top: 52px;
 ">
     <style type="text/css">

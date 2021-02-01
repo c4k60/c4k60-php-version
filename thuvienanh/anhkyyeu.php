@@ -4,13 +4,14 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Thư viện ảnh C4K60 - Ảnh tập thể lớp</title>
+      <title>Thư viện ảnh C4K60 - Ảnh kỷ yếu</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
       <?php 
+$title = 'C4K60 - ';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
  ?>
   </head>
@@ -21,7 +22,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/head.php';
 $thuvienanh = 'active';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
  ?>
-    <div id="container" style="
+    <div id="container" class="container" style="
     margin-top: 52px;
 ">
     
@@ -72,7 +73,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
       <ul id="media" class="clearfix">
           <?php
   require_once $_SERVER['DOCUMENT_ROOT'] . '/login/serverconnect.php';
-$sql = "SELECT * FROM thuvienanh WHERE album = 22";
+$sql = "SELECT * FROM thuvienanh WHERE album = 62";
 $results = mysqli_query($db, $sql);
 if (mysqli_num_rows($results)){
       while($row=mysqli_fetch_assoc($results)){

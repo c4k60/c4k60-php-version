@@ -66,7 +66,7 @@ $thuvienanh = 'active';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
  ?>
 
-    <div id="container">
+    <div id="container" class="container">
       <h3><i class="fas fa-cloud-upload-alt"></i> Tải lên ảnh vào thư viện ảnh C4K60</h3><br>
       <form method="POST" action="upload.php" enctype="multipart/form-data">
 <input type="file" id="image" name="image[]" multiple required><br><br>
@@ -93,8 +93,8 @@ echo "<option value='".$row['id']."'>".$row['name']."</option>";
 
 </form>
 <a href="/thuvienanh">< Quay lại</a>
-</div>
- <?php 
+<?php 
 require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
  ?>
+</div>
   </body>

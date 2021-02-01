@@ -97,7 +97,7 @@ $thuvienanh = 'active';
 require $_SERVER['DOCUMENT_ROOT'] . '/include/navbar.php';
  ?>
 
-    <div id="container">
+    <div id="container" class="container">
       <h3><i class="fas fa-folder-plus"></i> Tạo album mới</h3><br>
       <form method="POST" action="new_album.php" enctype="multipart/form-data">
         <p>Tên album:</p>
@@ -118,9 +118,8 @@ echo $msg;
 ?></p>
 </form>
 <a href="/thuvienanh">< Quay lại</a>
-</div>
- <?php 
+<?php 
 require $_SERVER['DOCUMENT_ROOT'] . '/include/footer.php';
-
  ?>
+</div>
   </body>
