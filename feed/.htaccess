@@ -1,0 +1,7 @@
+php_value upload_max_filesize 200M
+php_value post_max_size 200M
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/\.]+)/?$ profile.php?username=$1 [L]

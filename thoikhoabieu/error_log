@@ -1,0 +1,293 @@
+[15-Sep-2020 15:42:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[15-Sep-2020 15:42:05 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[15-Sep-2020 15:42:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[15-Sep-2020 15:42:05 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[15-Sep-2020 15:42:05 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[15-Sep-2020 15:42:05 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[15-Sep-2020 15:42:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[15-Sep-2020 15:43:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/fattiembt6od/c4k60.online/thoikhoabieu/index.php on line 471
+[19-Oct-2020 23:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[19-Oct-2020 23:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[19-Oct-2020 23:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[19-Oct-2020 23:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[19-Oct-2020 23:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[19-Oct-2020 23:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[19-Oct-2020 23:35:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[20-Oct-2020 09:23:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[20-Oct-2020 09:23:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[20-Oct-2020 09:23:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[20-Oct-2020 09:23:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[20-Oct-2020 09:23:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[20-Oct-2020 09:23:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[20-Oct-2020 09:23:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[20-Oct-2020 21:23:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[20-Oct-2020 21:24:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[21-Oct-2020 12:26:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[21-Oct-2020 12:26:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[21-Oct-2020 12:26:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[21-Oct-2020 12:26:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[21-Oct-2020 12:26:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[21-Oct-2020 12:26:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[21-Oct-2020 12:26:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[21-Oct-2020 17:41:28 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[21-Oct-2020 17:41:28 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[21-Oct-2020 17:41:28 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[21-Oct-2020 17:41:28 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[21-Oct-2020 17:41:28 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[21-Oct-2020 17:41:28 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[21-Oct-2020 17:41:28 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[22-Oct-2020 08:03:36 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[13-Nov-2020 21:17:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[13-Nov-2020 21:17:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[13-Nov-2020 21:17:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[13-Nov-2020 21:17:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[13-Nov-2020 21:17:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[13-Nov-2020 21:17:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[13-Nov-2020 21:17:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[17-Nov-2020 11:50:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[17-Nov-2020 11:50:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[17-Nov-2020 11:50:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[17-Nov-2020 11:50:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[17-Nov-2020 11:50:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[17-Nov-2020 11:50:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[17-Nov-2020 11:50:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[20-Nov-2020 01:10:26 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[20-Nov-2020 01:10:26 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[20-Nov-2020 01:10:26 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[20-Nov-2020 01:10:26 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[20-Nov-2020 01:10:26 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[20-Nov-2020 01:10:26 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[20-Nov-2020 01:10:26 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[25-Nov-2020 22:38:33 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[26-Nov-2020 09:05:19 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[26-Nov-2020 09:05:19 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[26-Nov-2020 09:06:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[26-Nov-2020 09:06:05 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[27-Nov-2020 04:34:35 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[01-Dec-2020 04:06:33 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[04-Dec-2020 16:19:33 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[04-Dec-2020 16:20:07 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[08-Dec-2020 11:46:55 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[31-Dec-2020 13:02:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[31-Dec-2020 13:02:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[31-Dec-2020 13:02:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[31-Dec-2020 13:02:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[31-Dec-2020 13:02:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[31-Dec-2020 13:02:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[31-Dec-2020 13:02:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[02-Jan-2021 00:01:24 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[02-Jan-2021 00:01:24 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[02-Jan-2021 00:01:24 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[02-Jan-2021 00:01:24 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[02-Jan-2021 00:01:24 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[02-Jan-2021 00:01:24 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[02-Jan-2021 00:01:24 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[03-Jan-2021 05:22:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[03-Jan-2021 05:22:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[03-Jan-2021 05:22:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[03-Jan-2021 05:22:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[03-Jan-2021 05:22:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[03-Jan-2021 05:22:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[03-Jan-2021 05:22:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[03-Jan-2021 22:50:50 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[03-Jan-2021 22:50:50 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[03-Jan-2021 22:50:50 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[03-Jan-2021 22:50:50 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[03-Jan-2021 22:50:50 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[03-Jan-2021 22:50:50 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[03-Jan-2021 22:50:50 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[05-Jan-2021 17:43:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[05-Jan-2021 17:43:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[05-Jan-2021 17:43:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[05-Jan-2021 17:43:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[05-Jan-2021 17:43:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[05-Jan-2021 17:43:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[05-Jan-2021 17:43:20 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[07-Jan-2021 06:06:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[07-Jan-2021 06:06:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[07-Jan-2021 06:06:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[07-Jan-2021 06:06:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[07-Jan-2021 06:06:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[07-Jan-2021 06:06:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[07-Jan-2021 06:06:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[07-Jan-2021 06:06:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[07-Jan-2021 06:06:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[07-Jan-2021 06:06:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[07-Jan-2021 06:06:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[07-Jan-2021 06:06:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[07-Jan-2021 06:06:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[07-Jan-2021 06:06:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[08-Jan-2021 08:37:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[08-Jan-2021 08:37:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[08-Jan-2021 08:37:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[08-Jan-2021 08:37:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[08-Jan-2021 08:37:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[08-Jan-2021 08:37:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[08-Jan-2021 08:37:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[09-Jan-2021 10:28:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[09-Jan-2021 10:28:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[09-Jan-2021 10:28:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[09-Jan-2021 10:28:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[09-Jan-2021 10:28:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[09-Jan-2021 10:28:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[09-Jan-2021 10:28:53 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[22-Jan-2021 19:51:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[22-Jan-2021 19:51:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[22-Jan-2021 19:51:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[22-Jan-2021 19:51:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[22-Jan-2021 19:51:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[22-Jan-2021 19:51:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[22-Jan-2021 19:51:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiembt6od/c4k60.com/include/navbar.php on line 9
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiembt6od/c4k60.com/include/navbar.php on line 16
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiembt6od/c4k60.com/include/navbar.php on line 37
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: videos in /home/fattiembt6od/c4k60.com/include/navbar.php on line 44
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiembt6od/c4k60.com/include/navbar.php on line 51
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: wiki in /home/fattiembt6od/c4k60.com/include/navbar.php on line 59
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiembt6od/c4k60.com/include/navbar.php on line 65
+[26-Jan-2021 11:57:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiembt6od/c4k60.com/include/navbar.php on line 71
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiembt6od/c4k60.com/include/navbar.php on line 9
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiembt6od/c4k60.com/include/navbar.php on line 16
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiembt6od/c4k60.com/include/navbar.php on line 37
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: videos in /home/fattiembt6od/c4k60.com/include/navbar.php on line 44
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiembt6od/c4k60.com/include/navbar.php on line 51
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: wiki in /home/fattiembt6od/c4k60.com/include/navbar.php on line 59
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiembt6od/c4k60.com/include/navbar.php on line 65
+[26-Jan-2021 18:27:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiembt6od/c4k60.com/include/navbar.php on line 71
+[14-May-2021 00:14:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[14-May-2021 00:14:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[14-May-2021 00:14:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 37
+[14-May-2021 00:14:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 51
+[14-May-2021 00:14:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 59
+[14-May-2021 00:14:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 65
+[14-May-2021 00:14:41 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 98
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 11:35:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 11:37:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 11:37:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 11:38:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 11:39:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 11:40:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 11:45:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 22:00:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99

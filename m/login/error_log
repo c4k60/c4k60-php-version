@@ -1,0 +1,21 @@
+[10-May-2021 17:57:23 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'c4k60_c4k60'@'localhost' (using password: YES) in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 45
+[10-May-2021 17:57:23 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'c4k60_c4k60'@'localhost' (using password: YES) in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 55
+[10-May-2021 17:57:23 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'c4k60_c4k60'@'localhost' (using password: YES) in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 65
+[10-May-2021 17:57:23 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 69
+[10-May-2021 17:57:23 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 71
+[10-May-2021 17:57:23 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 73
+[10-May-2021 17:57:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'c4k60_c4k60'@'localhost' (using password: YES) in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 45
+[10-May-2021 17:57:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'c4k60_c4k60'@'localhost' (using password: YES) in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 55
+[10-May-2021 17:57:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'c4k60_c4k60'@'localhost' (using password: YES) in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 65
+[10-May-2021 17:57:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 69
+[10-May-2021 17:57:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 71
+[10-May-2021 17:57:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/fattiepf5tah/c4k60.com/feed/m/require/serverconnect.php on line 73
+[10-May-2021 17:58:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_user_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 90
+[10-May-2021 22:51:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_user_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 90
+[10-May-2021 22:51:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_pass_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 94
+[12-May-2021 18:26:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_user_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 90
+[12-May-2021 18:26:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_pass_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 94
+[16-May-2021 14:17:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_user_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 90
+[16-May-2021 14:17:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_pass_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 94
+[18-May-2021 11:41:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_user_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 90
+[18-May-2021 11:41:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: input_pass_error in /home/fattiepf5tah/c4k60.com/feed/m/login/authenticate.php on line 94

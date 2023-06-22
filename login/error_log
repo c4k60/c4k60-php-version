@@ -1,0 +1,133 @@
+[15-Sep-2020 15:49:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fattiembt6od/c4k60.online/login/index.php on line 59
+[15-Sep-2020 15:52:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fattiembt6od/c4k60.online/login/index.php on line 59
+[16-Sep-2020 01:19:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fattiembt6od/c4k60.online/login/index.php on line 59
+[10-Oct-2020 14:11:20 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fattiembt6od/c4k60.online/login/index.php on line 59
+[21-Oct-2020 19:19:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[21-Oct-2020 19:19:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[21-Oct-2020 19:19:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[21-Oct-2020 19:19:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[21-Oct-2020 19:19:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[21-Oct-2020 19:19:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[21-Oct-2020 19:19:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'fattiembt6od'@'42.112.30.39' (using password: YES) in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[22-Oct-2020 08:05:43 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fattiembt6od/c4k60.online/login/index.php on line 59
+[02-Nov-2020 14:38:10 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fattiembt6od/c4k60.online/login/index.php on line 59
+[24-Nov-2020 14:54:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[24-Nov-2020 14:54:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[24-Nov-2020 14:54:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[24-Nov-2020 14:54:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[24-Nov-2020 14:54:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[24-Nov-2020 14:54:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[24-Nov-2020 14:54:25 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[24-Nov-2020 14:54:30 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 18
+[24-Nov-2020 14:54:30 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 23
+[24-Nov-2020 14:54:30 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 28
+[24-Nov-2020 14:54:30 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 30
+[24-Nov-2020 14:54:30 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 31
+[24-Nov-2020 14:54:30 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 32
+[24-Nov-2020 14:54:30 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[24-Nov-2020 14:57:44 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[24-Nov-2020 14:57:51 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[24-Nov-2020 14:58:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[24-Nov-2020 14:58:15 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[24-Nov-2020 14:58:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[24-Nov-2020 16:01:56 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[27-Nov-2020 00:10:23 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[08-Dec-2020 01:44:19 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'fattiembt6od_db'@'42.112.30.39' to database 'fattiembt6od_members' in /home/fattiembt6od/c4k60.online/login/serverconnect.php on line 41
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 31
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 37
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 51
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 59
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 65
+[14-May-2021 09:31:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 98
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 31
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 37
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 51
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 59
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 65
+[14-May-2021 09:32:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 98
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 31
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 37
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 51
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 59
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 65
+[14-May-2021 09:32:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 98
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 31
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 37
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 51
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 59
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 65
+[14-May-2021 09:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 98
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 31
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 37
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 51
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 59
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 65
+[14-May-2021 09:33:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 98
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 31
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 37
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 51
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 59
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 65
+[14-May-2021 09:33:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 98
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 32
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[16-May-2021 21:06:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 32
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[16-May-2021 21:40:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 32
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[17-May-2021 01:32:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: trangchu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 9
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tracuu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 16
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemthi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 23
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: diemtongket in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 24
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: hoso in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 26
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 27
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: baitapgv in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 28
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: sinhnhat in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 29
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thoikhoabieu in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 32
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thuvienanh in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 38
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: games in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 52
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: tuvi in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 60
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: thongbaolop in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 66
+[18-May-2021 14:35:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dangnhap in /home/fattiepf5tah/c4k60.com/include/navbar.php on line 99
