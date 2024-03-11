@@ -18,7 +18,7 @@ mysqli_set_charset($conn, 'UTF8');
 $input = $_GET['show'];
 
 if ($input != "" && $input != "all" && $input != "recent") {
-    $sql = "SELECT name, dayofbirth, monthofbirth, yearofbirth, gender FROM c4_user WHERE username = '$input'";
+    $sql = "SELECT name, dayofbirth, monthofbirth, yearofbirth, gender, username FROM c4_user WHERE username = '$input'";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
@@ -49,13 +49,13 @@ if ($input != "" && $input != "all" && $input != "recent") {
 
             $days = $time_diff / 86400;
 
-            echo json_encode(array("name" => $row['name'], "birthday" => $row['dayofbirth'] . "/" . $row['monthofbirth'] . "/" . $row['yearofbirth'], "daysleft" => $days, "gender" => $row['gender']), JSON_UNESCAPED_UNICODE);
+            echo json_encode(array("name" => $row['name'], "birthday" => $row['dayofbirth'] . "/" . $row['monthofbirth'] . "/" . $row['yearofbirth'], "daysleft" => $days, "gender" => $row['gender'], 'username' => $row['username']), JSON_UNESCAPED_UNICODE);
         }
     } else {
         echo json_encode(array("error" => "no_birthday_found"));
     }
 } elseif ($input != "" && $input == "all") {
-    $sql = "SELECT name, dayofbirth, monthofbirth, yearofbirth, gender FROM c4_user";
+    $sql = "SELECT name, dayofbirth, monthofbirth, yearofbirth, gender, username FROM c4_user";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         $data = array();
@@ -106,7 +106,7 @@ if ($input != "" && $input != "all" && $input != "recent") {
         echo json_encode(array("error" => "no_birthday_found"));
     }
 } elseif ($input == "" || $input == "recent") {
-    $sql = "SELECT name, dayofbirth, monthofbirth, yearofbirth, gender FROM c4_user";
+    $sql = "SELECT name, dayofbirth, monthofbirth, yearofbirth, gender, username FROM c4_user";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         $data = array();
