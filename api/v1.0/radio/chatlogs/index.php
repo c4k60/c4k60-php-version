@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     if (!empty($_GET['page'])) {
         $page = $_GET['page'];
     }
-    $items_per_page = 15;
+    $items_per_page = 30;
     if ($total - ($items_per_page * $page) < 0) {
         $offset = 0;
     } else {

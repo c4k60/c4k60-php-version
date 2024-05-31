@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>C4K60 - <?php echo $this->yieldContent('title'); ?></title>
+ <?php echo $this->runChild('includes.head'); ?>
+</head>
+
+<body>
+ <style>
+ #root {
+ margin-top: 0;
+ height: 100%;
+ }
+ </style>
+ <div id="screen">
+ <?php echo $this->yieldContent('content'); ?>
+ </div>
+ <?php echo $this->runChild('includes.navbar'); ?>
+ <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

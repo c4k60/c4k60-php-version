@@ -12,7 +12,7 @@ include('../../db.php');
 
 mysqli_set_charset($conn, 'UTF8');
 
-$sql = "SELECT name, bg_image, total_pic, type FROM album";
+$sql = "SELECT id, name, bg_image, total_pic, type FROM album";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {

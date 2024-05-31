@@ -85,7 +85,7 @@ body {
 }
 
 #slideshow--1 {
-  background: url(/assets/images/homepage-carousel/1.jpeg);
+  background: url(../images/homepage-carousel/1.jpeg);
   background-repeat: no-repeat;
   background-position: 50% 40%;
   background-size: cover;
@@ -94,7 +94,7 @@ body {
 }
 
 #slideshow--2 {
-  background: url(/assets/images/homepage-carousel/2.jpeg);
+  background: url(../images/homepage-carousel/2.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,7 +103,7 @@ body {
 }
 
 #slideshow--3 {
-  background: url(/assets/images/homepage-carousel/3.jpeg);
+  background: url(../images/homepage-carousel/3.jpeg);
   background-repeat: no-repeat;
   background-position: 50% 80%;
   background-size: cover;
@@ -112,7 +112,7 @@ body {
 }
 
 #slideshow--4 {
-  background: url(/assets/images/homepage-carousel/4.jpeg);
+  background: url(../images/homepage-carousel/4.jpeg);
   background-repeat: no-repeat;
   background-position: 50% 85%;
   background-size: cover;
@@ -121,7 +121,7 @@ body {
 }
 
 #slideshow--5 {
-  background: url(/assets/images/homepage-carousel/5.jpeg);
+  background: url(../images/homepage-carousel/5.jpeg);
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
@@ -233,6 +233,7 @@ body {
   justify-content: center;
   line-height: 21px;
   font-size: 15px;
+  flex: 1;
 }
 
 .user-greeting--greeting > h5 {
@@ -536,4 +537,20 @@ ul > li:before {
     font-size: 20px;
     transform: translateY(-20px);
   }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  user-select: none;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#username,
+#password {
+  padding-left: 35px;
+  border-radius: 25px;
+  height: 50px;
 }
